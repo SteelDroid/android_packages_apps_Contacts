@@ -412,14 +412,12 @@
                 <data android:mimeType="image/*" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            />
         </activity>
 
         <!-- Makes .ContactsListActivity the search target for any activity in Contacts -->
         <meta-data
             android:name="android.app.default_searchable"
             android:value=".ContactsListActivity" />
-
 
         <!-- LIVE FOLDERS -->
         <activity
@@ -464,14 +462,14 @@
 
         <activity android:name=".ExportVCardActivity"
             android:theme="@style/BackgroundOnly" />
-            
-	    <!-- Wysie_Soh: Custom Intents -->
-    	<activity android:name="ContactsPreferences">
+
+        <!-- Wysie_Soh: Custom Intents -->
+        <activity android:name="ContactsPreferences">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-    
+
     </application>
 </manifest>
